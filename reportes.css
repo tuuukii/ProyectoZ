@@ -1,0 +1,14 @@
+/* styles.css */
+
+/* Estilos para la vista de recuadro */
+.recuadro {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para la vista de lista */
+.lista {
+    list-style-type: none;
+    padding: 0;
+}

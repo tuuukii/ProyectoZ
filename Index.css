@@ -1,0 +1,106 @@
+/* Estilo para el contenedor principal */
+
+body {
+    background-image: url('IMG/login\ pc.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    margin: 0;
+    padding: 0;
+  }
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar horizontalmente */
+    justify-content: center; /* Centrar verticalmente */
+    height: 70vh; /* Esto asegura que el contenedor ocupe toda la altura de la ventana */
+    padding: 20px;
+    border-radius: 30px;
+  }
+  
+  /* Estilo para la imagen */
+  img {
+    width: 400px; /* Tamaño de la imagen */
+    margin-bottom: 1px; /* Espacio entre la imagen y el formulario */
+  }
+  
+  /* Estilo para el formulario */
+  /* Estilo para el formulario */
+form {
+    background-color: rgba(249, 249, 249, 0.6); /* Fondo semi-transparente */
+    padding: 10px; /* Reducido el espacio interior del formulario */
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra */
+    margin-top: 1px; /* Espacio entre la imagen y el formulario */
+    max-width: 300px; /* Ancho máximo del formulario */
+    width: 100%; /* Asegura que el formulario se ajuste al contenedor */
+  }
+  
+  
+  /* Estilo para el texto */
+  input[type="text"],
+  input[type="password"] {
+    border: 1px solid #ffffff; /* Color sólido para el borde del campos de texto */
+    border-radius: 15px; /* Borde redondeado para los campos de texto */
+    color: #646464; /* Color sólido para el texto */
+    padding: 10px;
+    width: 270px;
+    opacity: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+/* Estilo para los botones */
+input[type="submit"] {
+    background-color: #037df8; /* Color sólido para el fondo de los botones */
+    border: none;
+    border-radius: 20px; /* Borde redondeado para los botones */
+    color: #fff; /* Color sólido para el texto de los botones */
+    padding: 10px 70px;
+    margin: 10px 50px; /* Centra los botones horizontalmente */
+    cursor: pointer;
+    align-items: center;
+    font-family: 'Baloo Thambi 2', cursive;
+}
+  
+  /* Estilo para el enlace de Registro */
+  a {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    text-decoration: none;
+    color: #646464; /* Color sólido para el enlace de Registro */
+    border-bottom: 1px solid #646464; /* Línea de abajo para el enlace de Registro */
+    margin: 20px 120px;
+
+  }
+
+  .titulo1{
+    margin: 10px 20px;
+    font-family: 'Baloo Thambi 2', cursive;
+    color: darkblue;
+    font-size: 18px;
+  }
+
+  .titulo2{
+    margin: 10px 20px;
+    font-family:sans-serif;
+    color: darkblue;
+    font-size: 15PX;
+  }
+  
+  .pie {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 220px; /* altura de tu footer */
+    padding: 0 20px; /* márgenes laterales */
+    width: 97%; /* ancho completo */
+}
+
+.otra-img{
+  display:flex;
+}
